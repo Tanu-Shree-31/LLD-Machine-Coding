@@ -1,0 +1,24 @@
+Entity.Product
+String productid;
+String name;
+String description ;
+double price;
+int quantity;
+
+
+Entity.Inventory
+Map<String, Entity.Product> products;
+
+
+Entity.Order
+String orderId;
+String productid;
+int quantity;
+String customerId;
+
+
+Service.InventoryManagementSystem
+1. Add product
+2. Remove products
+3. Place Entity.Order
+4. View all the products
